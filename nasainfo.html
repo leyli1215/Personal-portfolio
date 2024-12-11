@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class="topnav">
+    <a href="#" id="homeLink">Home</a>
+     <a href="resume.pdf" download="resume.pdf">Resume</a>
+    <a href="#" id="projectsLink">Projects</a>
+  </div>
+
+  <div class="center">
+
+
+    <video width="500px" height="400px" controls="controls">
+      <source src="nasa.mp4" type="video/mp4" />
+    </video>
+  </div>
+  
+  <div class = "infotext">
+     <h2>Pathfinding Simulation for Airships</h2>
+    <ul>
+        <li><strong>Function:</strong> During my internship at NASA Aviation Concept Design, I developed a simulation of a pathfinding algorithm using Python. The primary objective was to optimize the navigation of airships through hazardous weather conditions, aiming to reduce operational costs, particularly those associated with excessive fuel consumption (helium).</li>
+        <li><strong>Impact:</strong> This project focused on enhancing airship navigation efficiency by utilizing an advanced pathfinding algorithm. By improving the algorithm’s capability to handle dynamic and complex weather scenarios, the simulation contributes to more effective route planning, leading to reduced fuel consumption and overall operational costs. This has the potential to advance airship technology and its practical applications.</li>
+        <li><strong>Challenges:</strong> Adapting the A* algorithm to the unique requirements of airship navigation presented several challenges. One major difficulty was tailoring the heuristic function, where I chose the Euclidean Distance due to its flexibility with the airship's movement dynamics. Additionally, implementing dynamic obstacles proved challenging as weather conditions are constantly changing. Creating a realistic simulation that could handle these moving obstacles required innovative approaches to ensure the algorithm could adapt and recalibrate effectively.</li>
+        <li><strong>Solutions:</strong> To address these challenges, I employed a step-by-step visualization approach to break down and analyze the algorithm’s performance. This method facilitated a deeper understanding of the dynamic aspects of the simulation and helped refine the implementation of dynamic obstacles. By integrating continuous visualization, I ensured the algorithm could respond adaptively to changing weather patterns and maintain its efficacy.</li>
+        <li><strong>Takeaways:</strong> This project provided valuable insights into the A* algorithm and its application in real-world scenarios. It enhanced my understanding of pathfinding techniques and their practical implications for airship navigation. The experience underscored the importance of adapting algorithms to specific use cases and demonstrated the impact of thorough analysis and visualization in solving complex problems.</li>
+    </ul>
+  </div>
+
+  <div class="link-container">
+    <h2>Github Link: </h2> 
+    <a href="https://github.com/leyli1215/NASA-astar-algorithm">NASA Airship Optimized Path Finder</a> 
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
