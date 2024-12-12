@@ -2,7 +2,9 @@ document.getElementById("projectsLink").addEventListener("click", function() {
   window.location.href = "projects.html";
 });
  
-
+document.getElementById("websitemore").addEventListener("click", function() {
+  window.location.href = "tmschool.html";
+});
  
 
 document.getElementById("homeLink").addEventListener("click", function() {
